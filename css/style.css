@@ -1,0 +1,730 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main_content {
+    overflow: hidden;
+}
+
+.Header {
+    width: 100vw;
+    padding: 16px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background: #fff;
+
+}
+
+.header_logo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.header_search {
+    width: 62vw;
+}
+
+.header_items {
+    width: 30vw;
+}
+
+.header_logo {
+    width: 8vw;
+
+}
+
+.header_items ul {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 25px; */
+}
+
+.header_items ul li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.first_child {
+    color: black !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid #00754a !important;
+    padding-bottom: 10px !important;
+}
+
+.header_items ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #212529;
+    font-size: 14px;
+}
+
+.header_search {
+
+    display: flex;
+    align-items: end;
+    justify-items: center;
+    justify-content: end;
+
+}
+
+.search_items {
+    border: 1px solid lightgrey;
+    padding: 7px;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 80px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.fa-magnifying-glass {
+    padding: 0px 10px;
+    color: #9ca3af;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 3px;
+}
+
+.fa-user {
+    border: 1px solid #2d2d2d;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fa-bars {
+    display: none !important;
+}
+
+/* reward section start */
+#reward {
+    width: 100%;
+    background-color: #1e3932;
+    padding: 23px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 5.5%;
+}
+
+#reward .reward_items {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#reward .reward_items h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.reward_content button {
+    padding: 9px 15px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    background-color: transparent;
+}
+
+/* Handcrafted start */
+#Handcrafted {
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.Handcrafted_heading {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.Handcrafted_heading h2 {
+    color: #1e3932;
+
+}
+
+#Handcrafted .Handcrafted_items {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#Handcrafted .Handcrafted_img {
+    cursor: pointer;
+}
+
+#Handcrafted .Handcrafted_img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+#Handcrafted .Handcrafted_img:hover img {
+    transform: scale(1);
+    border: 3px solid #00754a;
+
+}
+
+#Handcrafted .Handcrafted_items h3 {
+    padding: 5px 0px;
+    font-size: 15px;
+    color: #2c2d2e;
+}
+
+/* signature section start */
+
+#signature {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+#signature .signature_items {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #edd15b;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    border-radius: 5px;
+}
+
+.signature_first {
+    width: 20%;
+}
+
+.signature_second {
+    width: 60%;
+}
+
+.signature_third {
+    width: 20%;
+}
+
+.signature_first img {
+    width: 200px;
+}
+
+.signature_third {
+    display: flex;
+    align-items: end;
+    /* justify-items: end; */
+    text-align: right;
+}
+
+.signature_second h2 {
+    font-size: 22px;
+    padding: 15px 0px;
+    color: #2d2d2d;
+}
+
+.signature_second p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.signature_second h4 {
+    font-size: 14px;
+    font-size: 400;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.signature_third button {
+    padding: 11px 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    background-color: #00754a;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* barista section */
+
+#Barista {
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #edebe9;
+}
+
+.Barista_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#Barista .Main_Barista {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.Barista_heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.Barista_heading a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #00754a;
+}
+
+#Barista .Barista_slider {
+    width: 32%;
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Barista_slider .Barista_items {
+    display: flex;
+}
+
+.Barista_slider .Barista_items .Barista_img img {
+    width: 100px;
+    height: 90px;
+    border-radius: 4px;
+}
+
+.Barista_slider .Barista_icon img {
+    margin-top: 5px;
+}
+
+.Barista_slider .Barista_icon {
+    padding-left: 17px;
+}
+
+.Barista_slider .Barista_icon h5 {
+    padding: 7px 0px;
+    font-size: 17px;
+}
+
+.Barista_slider .Barista_icon p {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.Barista_items_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.Barista_items_2 .Barista_img_2 h6 {
+    font-size: 16px;
+}
+
+.Barista_items_2 .Barista_icon_2 button {
+    padding: 10px 20px;
+    background-color: #00754a;
+    border-radius: 30px;
+    color: #fff;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* learn more section start */
+#Learn_about {
+    width: 100%;
+    background-color: #edebe9;
+    padding: 40px 0px;
+    margin-top: 40px;
+}
+
+#Learn_about .learn_content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+#Learn_about .learn_content h1 {
+    font-size: 24px;
+}
+
+#Learn_about .learn_content a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #00754a;
+}
+
+#Learn_about .learn {
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../img/learn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: #fff;
+    transition: 2s;
+
+
+
+}
+
+#Learn_about .learn h2 {
+    padding-top: 16%;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#Learn_about .learn p {
+    padding: 20px 0px;
+}
+
+.btn {
+    padding: 2px 5px;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #00754a;
+    font-size: 12px;
+}
+
+.btn_2 {
+    padding: 9px 60px;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+#Learn_about .learn:hover {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.8)), url('../img/learn.jpg');
+
+
+}
+
+/* code for gift page */
+
+#gift {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #0e382c;
+}
+
+#gift .signature_items {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #dfc49d;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.gift_box {
+    width: 100%;
+    padding-top: 0px !important;
+    background-color: #fff !important;
+}
+
+.anytime {
+    display: flex;
+    gap: 40px;
+    padding: 12px 0px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.Barista_heading_2 {
+    width: 100%;
+    background-color: #f2f0eb;
+}
+
+.Barista_heading_2 h5 {
+    font-size: 17px;
+    padding: 0px 10px;
+    font-size: 100;
+    cursor: pointer;
+}
+
+.anytime div {
+    border-left: 2px solid #d4d2ce;
+    /* border-right: 2px solid #d4d2ce; */
+}
+
+.anytime h5:hover {
+    color: #00754a;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #0e382c;
+    padding: 60px 0px;
+}
+
+#footer .footer_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer .footer_content .main_footer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#footer .footer_content .main_footer h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#footer .footer_content .main_footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+#footer .footer_content .main_footer p {
+    font-weight: 100;
+    padding: 15px 0px;
+}
+
+.main_footer .footer_items_4 i {
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.main_footer .footer_items_5 img {
+    width: 100%;
+}
+
+/* copyright section */
+#footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+#footer .copyright .copyright_box_1 {
+    display: flex;
+    align-items: center;
+
+}
+
+#footer .copyright .copyright_box_1 .boder {
+    padding: 0px 30px;
+    border-left: 1px solid #fff;
+
+}
+
+.boder_1 {
+    padding-right: 20px !important;
+}
+
+#footer .copyright .copyright_box_1 .boder h6,
+.boder_1 h6 {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#footer .copyright_box_1 p {
+    font-size: 11px;
+}
+
+/* responsive code start */
+@media only screen and (max-width: 750px) {
+    #reward {
+        margin-top: 8%;
+    }
+
+    .header_items {
+        width: 40vw;
+    }
+
+    #Handcrafted .Handcrafted_items,
+    #signature .signature_items {
+        flex-direction: column;
+    }
+
+    #Handcrafted .Handcrafted_img img {
+        width: 70%;
+        height: 50% !important;
+        border-radius: 10px;
+
+    }
+
+    #signature {
+        padding: 10px 0px !important;
+    }
+
+    #signature .signature_items {
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+
+    .signature_first {
+        width: 100%;
+    }
+
+    .signature_second {
+        width: 100%;
+    }
+
+    .signature_third {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    #Barista .Main_Barista,
+    #footer .footer_content .main_footer {
+        flex-direction: column;
+    }
+
+    #Barista .Barista_slider {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main_footer .footer_items_5 img {
+        width: 60%;
+    }
+
+    .social {
+        justify-content: flex-start;
+        gap: 35px;
+        margin-bottom: 10px;
+    }
+
+    .Header {
+        text-align: right;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .fa-bars,
+    .fa-xmark {
+        display: block !important;
+        padding-right: 3.5%;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        top: 11px;
+        right: 15px !important;
+    }
+
+    .Header {
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .header_search {
+        width: 100vw;
+    }
+
+    .header_items {
+        width: 100vw;
+    }
+
+    .header_items ul {
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .header_items ul li {
+        margin-top: 10px;
+    }
+
+    .header_search {
+        justify-content: start;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .header_logo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .first_child {
+        border-bottom: 0px !important;
+    }
+    #gift .signature_items {
+       flex-direction: column;
+       padding-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .copyright {
+        flex-direction: column;
+    }
+
+    .copyright_box_1 {
+        margin-top: 12px;
+    }
+
+    #reward {
+        margin-top: 11%;
+    }
+
+    .reward_content h2 {
+        font-size: 16px;
+    }
+}

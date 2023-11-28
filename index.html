@@ -1,27 +1,318 @@
-<html>
-    <head>
-        <title>Starbucks Coffee Company</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section id="navbar">
-            <div class="left">
-                <img src="./icon.png" alt="" class="icon">
-                <ul class="items">
-                    <li class="item active">Home</li>
-                    <li class="item">Gift</li>
-                    <li class="item">Order</li>
-                    <li class="item">Pay</li>
-                    <li class="item">Store</li>
-                </ul>
-            </div>
-            <div class="right">
-                <div class="input_bar">
-                    <img src="./search_icon.png" class="search_icon" alt="">
-                    <input type="text" class="input_field" placeholder="Looking for something specific?">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucks Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section id="main_content">
+        <!-- header start  -->
+        <section class="Header">
+            <div class="navigation" id="nav">
+                <div class="header_logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="">
+                    </a>
                 </div>
-                <img src="./profile_icon.png" alt="" class="profile_icon">
+                <div class="header_items">
+                    <ul>
+                        <li><a href="index.html" class="first_child">Home</a></li>
+                        <li><a href="gift.html">Gift</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="#">Pay</a></li>
+                        <li><a href="#">Store</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="header_search">
+                    <div class="search_items">
+                        <form action="">
+                            <div class="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" name="" id="" placeholder="looking for something specific">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="search_items_2">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            <i id="Menu" class="fa-solid fa-bars"></i>
+            
+        </section>
+        <!-- header end  -->
+
+        <!-- reward section start -->
+        <section id="reward">
+            <div class="reward_items">
+                <div class="reward_content">
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+                </div>
+                <div class="reward_content">
+                    <button>Know More</button>
+                </div>
             </div>
         </section>
-    </body>
+        <!-- reward section end -->
+
+
+        <!-- Handcrafted Curations section start -->
+        <section id="Handcrafted">
+            <div class="Handcrafted_heading">
+                <h2>Handcrafted Curations </h2>
+            </div>
+            <div class="Handcrafted_items">
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-1.jpg" alt="handcraft-image">
+                    <h3>Best Seller</h3>
+                </div>
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-2.jpg" alt="handcraft-image">
+                    <h3>Drinks</h3>
+
+                </div>
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-3.jpg" alt="handcraft-image">
+                    <h3>Food</h3>
+                </div>
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-4.jpg" alt="handcraft-image">
+                    <h3>Merchandise</h3>
+                </div>
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-5.jpg" alt="handcraft-image">
+                    <h3>Coffee At Home</h3>
+                </div>
+                <div class="Handcrafted_img">
+                    <img src="img/handcraft-6.jpg" alt="handcraft-image">
+                    <h3>Ready to Eat</h3>
+
+                </div>
+            </div>
+        </section>
+        <!-- Handcrafted Curations section end -->
+
+        <!-- signature milkshake section start -->
+
+        <section id="signature">
+            <div class="signature_items">
+                <div class="signature_first">
+                    <img src="img/cup-2.png" alt="">
+                </div>
+                <div class="signature_second">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h2>Signature Milkshakes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eveniet?</p>
+                    <h4>Start from</h4>
+                    <p>$778</p>
+                </div>
+                <div class="signature_third">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- signature section end -->
+
+        <!-- Barista Recommends section start -->
+        <section id="Barista">
+            <div class="Barista_content">
+                <div class="Barista_heading">
+                    <div>
+                        <h2>Barista Recommends</h2>
+                    </div>
+                    <div>
+                        <h6><a href="#">View Menu</a></h6>
+                    </div>
+                </div>
+
+                <!-- Barista Recommends slider -->
+                <section class="Main_Barista">
+
+                    <div class="Barista_slider">
+                        <div class="Barista_items">
+                            <div class="Barista_img">
+                                <img src="img/barista-1.webp" alt="">
+                            </div>
+                            <div class="Barista_icon">
+                                <img src="img/icon-1.svg" alt="">
+                                <h5>Bhuna Chicken Puff</h5>
+                                <p>PER SERVE (50 g) - 110 Kcal </p>
+                            </div>
+
+                        </div>
+                        <div class="Barista_items_2">
+                            <div class="Barista_img_2">
+                                <h6>$ 40.78</h6>
+                            </div>
+                            <div class="Barista_icon_2">
+                                <button>Add Item</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="Barista_slider">
+                        <div class="Barista_items">
+                            <div class="Barista_img">
+                                <img src="img/barista-2.webp" alt="">
+                            </div>
+                            <div class="Barista_icon">
+                                <img src="img/icon-2.svg" alt="">
+                                <h5>Three Dip Nochos</h5>
+                                <p>PER SERVE (50 g) - 110 Kcal </p>
+                            </div>
+
+                        </div>
+                        <div class="Barista_items_2">
+                            <div class="Barista_img_2">
+                                <h6>$ 50.78</h6>
+                            </div>
+                            <div class="Barista_icon_2">
+                                <button>Add Item</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="Barista_slider">
+                        <div class="Barista_items">
+                            <div class="Barista_img">
+                                <img src="img/barista-1.webp" alt="">
+                            </div>
+                            <div class="Barista_icon">
+                                <img src="img/icon-1.svg" alt="">
+                                <h5>Bhuna Chicken Puff</h5>
+                                <p>PER SERVE (50 g) - 110 Kcal </p>
+                            </div>
+
+                        </div>
+                        <div class="Barista_items_2">
+                            <div class="Barista_img_2">
+                                <h6>$ 40.78</h6>
+                            </div>
+                            <div class="Barista_icon_2">
+                                <button>Add Item</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+
+        <!-- Barista Recommends section end -->
+        <!-- Learn more about the world of coffee! start -->
+        <section id="Learn_about">
+            <div class="learn_content">
+                <div>
+                    <h1>Learn more about the world of coffee!</h1>
+                </div>
+                <div>
+                    <h6><a href="#">Discover More</a></h6>
+                </div>
+            </div>
+            <div class="learn">
+                <button class="btn">Coffee Culture</button>
+                <h2>The art and science sampling coffee</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nulla.</p>
+                <button class="btn_2">Learn More</button>
+            </div>
+        </section>
+
+        <!-- Learn more about the world of coffee! end -->
+
+        <!-- footer section start -->
+        <section id="footer">
+            <div class="footer_content">
+                <div class="main_footer">
+                    <div class="footer_items">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="footer_items_1">
+                        <h4>About Us</h4>
+                        <p><a href="#">Home</a></p>
+                        <p><a href="#">Gift</a></p>
+                        <p><a href="#">Order</a></p>
+                        <p><a href="#">Pay</a></p>
+                        <p><a href="#">Store</a></p>
+
+                    </div>
+                    <div class="footer_items_2">
+                        <h4>Responsibility</h4>
+                        <p><a href="#">Community</a></p>
+                        <p><a href="#">Ethical Sourcing</a></p>
+                        <p><a href="#">Environment</a></p>
+                        <p><a href="#">Diversity</a></p>
+                    </div>
+                    <div class="footer_items_3">
+                        <h4>Quick Links</h4>
+                        <p><a href="#">Delivery</a></p>
+                        <p><a href="#">Season's Gifting</a></p>
+                        <p><a href="#">Careers</a></p>
+                        <p><a href="#">FAQs</a></p>
+                    </div>
+                    <div class="footer_items_4">
+                        <h4>SOCIAL MEDIA</h4>
+                        <div class="social">
+                            <h5><i class="fa-brands fa-facebook"></i></h5>
+                            <h5><i class="fa-brands fa-instagram"></i></h5>
+                            <h5><i class="fa-brands fa-twitter"></i></h5>
+                        </div>
+
+                    </div>
+                    <div class="footer_items_5">
+                        <div>
+                            <img src="img/app.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/google-play.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="copyright_box_1">
+                        <div class="boder_1">
+                            <h6>Web Accessiblity</h6>
+                        </div>
+                        <div class="boder">
+                            <h6>Privacy Statement</h6>
+                        </div>
+                        <div class="boder">
+                            <h6>Terms of Use</h6>
+                        </div>
+                        <div class="boder">
+                            <h6>Contact Us</h6>
+                        </div>
+                    </div>
+                    <div class="copyright_box_1">
+                        <p>© 2023 By Babidul Hassan. All rights reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+    <script src="js/app.js"></script>
+</body>
+
 </html>
